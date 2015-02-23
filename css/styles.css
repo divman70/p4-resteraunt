@@ -1,0 +1,17 @@
+img {
+	width: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+/* Contact styles */
+#contact {
+	background-color: black;
+}
+
+p, 
+h2 {
+	color: white;
+}
