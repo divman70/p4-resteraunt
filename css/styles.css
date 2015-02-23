@@ -15,3 +15,21 @@ p,
 h2 {
 	color: white;
 }
+
+/* nav styles */
+#nav {
+	background-color: black;
+	padding-top: 50px;
+}
+
+.menu-link {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.menu-link:hover {
+	color: red;
+}
