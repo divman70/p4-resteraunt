@@ -1,3 +1,5 @@
+
+
 /*  Desktop  */
 @media (min-width: 992px) {
 
@@ -55,7 +57,12 @@ h2 {
 /* nav styles */
 #nav {
 	background-color: black;
+	height: 5%;
+	width: 100%;
 	padding-top: 50px;
+	padding-bottom: 25px;
+	border-bottom: solid white;
+
 }
 
 .menu-link {
@@ -65,6 +72,7 @@ h2 {
 	text-transform: uppercase;
 	padding-left: 35px;
 	padding-right: 35px;
+	/*background: blue;*/
 }
 
 .menu-link:hover,
@@ -133,7 +141,11 @@ h2 {
 /* nav styles */
 #nav {
 	background-color: black;
+	height: 5%;
+	width: 100%;
 	padding-top: 50px;
+	padding-bottom: 25px;
+	border-bottom: solid white;
 }
 
 .menu-link {
@@ -183,7 +195,11 @@ iframe {
 
 #nav {
 		background-color: black;
+		height: 5%;
+		width: 100%;
 		padding-top: 50px;
+		padding-bottom: 25px;
+		border-bottom: solid white;
 }
 
 .menu-link {
