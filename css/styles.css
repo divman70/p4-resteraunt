@@ -1,4 +1,6 @@
-
+.column {
+	background-color: orange;
+}
 
 /*  Desktop  */
 @media (min-width: 992px) {
@@ -22,7 +24,7 @@ img {
 }
 
 body {
-	background: white;
+	background: blue;
 	margin:	0;
 }
 
@@ -32,7 +34,7 @@ body {
 
 /* Contact styles */
 #location {
-	background-color: black;
+	background: black;
 }
 
 .price-title,
@@ -106,7 +108,7 @@ img {
 }
 
 body {
-	background: white;
+	background: red;
 	margin:	0;
 }
 
@@ -119,8 +121,10 @@ body {
 	background-color: black;
 }
 
-.price-title,
-.menu-title,
+#menu {
+	width: 400px;
+}
+
 p {
 	color: black;
 
@@ -148,6 +152,7 @@ h2 {
 	border-bottom: solid white;
 }
 
+
 .menu-link {
 	color: white;
 	font-size: 18px;
@@ -173,15 +178,11 @@ img {
 }
 
 body {
-		background: white;
+		background: green;
 }
 
 iframe {
 		width: 80%;
-}
-
-#location {
-		background: black;
 }
 
 .icon {
@@ -200,6 +201,10 @@ iframe {
 		padding-top: 50px;
 		padding-bottom: 25px;
 		border-bottom: solid white;
+}
+
+#location {
+	background-color: black;
 }
 
 .menu-link {

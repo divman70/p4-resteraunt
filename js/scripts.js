@@ -1,5 +1,3 @@
-// $("#nav").sticky({ topSpacing: 0});
-
 
 // Sushi Menu item #1
 $('.first').hover(
