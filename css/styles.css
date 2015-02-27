@@ -1,7 +1,7 @@
-.column {
+/*.column {
 	background-color: orange;
 }
-
+*/
 /*  Desktop  */
 @media (min-width: 992px) {
 
@@ -11,7 +11,7 @@ img {
 
 .banner {
 	width: 100%;
-	height: 10%;
+	height: 20%;
 }
 
 .icon {
@@ -19,12 +19,9 @@ img {
 	height: 50px;
 }
 
-.number {
-	display: inline-block;
-}
 
 body {
-	background: blue;
+	background: white;
 	margin:	0;
 }
 
@@ -35,21 +32,33 @@ body {
 /* Contact styles */
 #location {
 	background: black;
+	padding-top: 40px;
+	padding-bottom: 15px;
 }
 
-.price-title,
-.menu-title,
-p {
+#contact {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: solid white;
+	background: black;
+}
+
+#menu {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+p, h3, a {
 	color: black;
+	font-family: 'Voces', cursive;
 
 }
  
 .contact-info,
-h2 {
-	color: white;
-}
 
-.about {
+.about,
+.number {
 	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -67,7 +76,8 @@ h2 {
 
 }
 
-.menu-link {
+.menu-link,
+.email {
 	color: white;
 	font-size: 18px;
 	text-decoration: none;
@@ -103,12 +113,9 @@ img {
 	height: 50px;
 }
 
-.number {
-	display: inline-block;
-}
 
 body {
-	background: red;
+	background: white;
 	margin:	0;
 }
 
@@ -132,7 +139,8 @@ h2 {
 	color: white;
 }
 
-.about {
+.about,
+.number {
 	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -149,14 +157,22 @@ h2 {
 	border-bottom: solid white;
 }
 
+#contact {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: solid white;
+	background: black;
+}
 
-.menu-link {
+
+.menu-link,
+.email {
 	color: white;
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .menu-link:hover,
@@ -175,7 +191,7 @@ img {
 }
 
 body {
-		background: green;
+		background: white;
 }
 
 iframe {
@@ -201,22 +217,38 @@ iframe {
 }
 
 #location {
-	background-color: black;
+	background: black;
 }
 
-.menu-link {
-		color: white;
-		font-size: 18px;
-		text-decoration: none;
-		text-transform: uppercase;
-		padding-left: 35px;
-		padding-right: 35px;
+#contact {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: solid white;
+	background: black;
+}
+
+.menu-link,
+.email {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 .menu-link:hover,
 .icon:hover {
 		color: red;
 	}
+
+.about,
+.number {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 
 } /* End of Mobile Query*/
 

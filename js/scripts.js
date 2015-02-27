@@ -15,6 +15,44 @@ $(window).on('resize', function(){
     }
 });
 
+$('.menu-link:nth-child(1)').click(
+  function(){
+   $('#menu').animatescroll()
+
+});
+
+$('.menu-link:nth-child(2)').click(
+  function(){
+   $('#location').animatescroll()
+
+});
+
+$('.menu-link:nth-child(3)').click(
+  function(){
+   $('#contact').animatescroll()
+
+});
+
+
+// Sushi Menu item #1
+$('.first').hover(
+    function(){
+      $(this).attr('src','img/sushiPlateYellow.jpg')
+    },
+    function(){
+      $(this).attr('src','img/Spiral Ecstasy Roll.png')
+    }
+); 
+
+// Sushi Menu item #2
+$('.second').hover(
+    function(){
+      $(this).attr('src','img/sushiPlateBlue.jpg')
+    },
+    function(){
+      $(this).attr('src','img/Big Tempura Maki.png')
+    }
+); 
 
 // Sushi Menu item #3
 $('.third').hover(
