@@ -5,7 +5,7 @@ $(window).on('resize', function(){
       $('#menu, #location, #contact, #nav').addClass('computer only').removeClass('mobile only, tablet only');
 
       }
-    else if (item.width() < 768)
+    else if (item.width() < 480)
     {
         $('#menu, #location, #contact, #nav').addClass('mobile only').removeClass('computer only, tablet only');
     }
