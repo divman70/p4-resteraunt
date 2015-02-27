@@ -1,23 +1,20 @@
+$(window).on('resize', function(){
+      var item = $(this);
+      if (item.width() > 992) { 
 
-// Sushi Menu item #1
-$('.first').hover(
-    function(){
-      $(this).attr('src','img/sushiPlateYellow.jpg')
-    },
-    function(){
-      $(this).attr('src','img/Spiral Ecstasy Roll.png')
-    }
-);
+      $('#menu').addClass('computer only').removeClass('mobile only, tablet only');
 
-// Sushi Menu item #2
-$('.second').hover(
-    function(){
-      $(this).attr('src','img/sushiPlateBlue.jpg')
-    },
-    function(){
-      $(this).attr('src','img/Big Tempura Maki.png')
+      }
+    else if (item.width() < 768)
+    {
+        $('#menu').addClass('mobile only').removeClass('computer only, tablet only');
     }
-); 
+      else 
+    {
+        $('#menu').addClass('tablet only').removeClass('computer only, mobile only');
+    }
+});
+
 
 // Sushi Menu item #3
 $('.third').hover(
