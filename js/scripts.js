@@ -2,16 +2,16 @@ $(window).on('resize', function(){
       var item = $(this);
       if (item.width() > 992) { 
 
-      $('#menu').addClass('computer only').removeClass('mobile only, tablet only');
+      $('#menu, #location, #contact, #nav').addClass('computer only').removeClass('mobile only, tablet only');
 
       }
     else if (item.width() < 768)
     {
-        $('#menu').addClass('mobile only').removeClass('computer only, tablet only');
+        $('#menu, #location, #contact, #nav').addClass('mobile only').removeClass('computer only, tablet only');
     }
       else 
     {
-        $('#menu').addClass('tablet only').removeClass('computer only, mobile only');
+        $('#menu, #location, #contact, #nav').addClass('tablet only').removeClass('computer only, mobile only');
     }
 });
 

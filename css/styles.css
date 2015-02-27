@@ -49,14 +49,13 @@ body {
 }
 
 
-p, h3, a {
+p, h3 {
 	color: black;
 	font-family: 'Voces', cursive;
 
 }
  
 .contact-info,
-
 .about,
 .number {
 	color: white;
@@ -82,13 +81,12 @@ p, h3, a {
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
 	/*background: blue;*/
 }
 
-.menu-link:hover,
-.icon:hover {
+.menu-link:hover {
 	color: red;
 }
 
@@ -108,19 +106,10 @@ img {
 	height: 10%;
 }
 
-.icon {
-	width: 50px;
-	height: 50px;
-}
-
 
 body {
 	background: white;
 	margin:	0;
-}
-
-.green {
-	color: green;
 }
 
 /* Contact styles */
@@ -129,8 +118,9 @@ body {
 }
 
 
-p {
+p, h3 {
 	color: black;
+	font-family: 'Voces', cursive;
 
 }
  
@@ -171,12 +161,11 @@ h2 {
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
-.menu-link:hover,
-.icon:hover {
+.menu-link:hover {
 	color: red;
 	}
 				
@@ -196,6 +185,12 @@ body {
 
 iframe {
 		width: 80%;
+}
+
+p, h3 {
+	color: black;
+	font-family: 'Voces', cursive;
+
 }
 
 .icon {
@@ -233,12 +228,11 @@ iframe {
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
-.menu-link:hover,
-.icon:hover {
+.menu-link:hover {
 		color: red;
 	}
 
